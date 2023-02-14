@@ -1,0 +1,323 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap);
+
+$main-color : #2F2F2F;
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'inter' ;
+}
+
+body{
+  header{
+    display: flex;
+    div.navbar{
+      width: 100vw;
+      height: 50px;
+      padding-top: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content:space-between;
+      .LogoNav{
+        display: flex;
+        align-items: center;
+        .logo{
+        display: flex;
+        width: 272px;
+        height: 40px;
+        padding-left: 100px;
+      }
+      }
+      
+      ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 34px;
+        padding-right: 100px;
+        a{
+          text-decoration: none;
+          color: $main-color;
+          li{
+            list-style-type: none;
+            font-size: 16px;
+          }
+        }
+        .searchbar{
+          width: 250px;
+          height: 40px;
+          background-color: #F7F5F6;
+          border: none;
+          border-radius: 5px ;
+        }
+        .searchbar::placeholder{
+          padding-left: 20px;
+          margin-left: 10px;
+        }
+        .imgNavbar{
+          width: 75px;
+          height: 75px;
+        }
+      }
+    }
+  }
+  .section1{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    padding-bottom: 30px;
+    div.text{
+      padding-top: 125px;
+      display: flex;
+      width: 640px;
+      height: fit-content;
+      flex-direction: column;
+      padding-left: 100px;
+      div.compliment{
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+        
+        p{
+          color: black;
+          font-size: 16px;
+          padding-right: 5px;
+          padding-bottom: 20px;
+        }
+        img{
+          width: 20px;
+          height: 20px;
+        }
+      }
+      h1{
+        font-size: 64px;
+        font-weight:900;
+        padding-bottom: 20px;
+        line-height: 70px;
+      }
+      p{
+        color: #888888;
+        padding-bottom: 30px;
+      }
+      a{
+        background-color: $main-color;
+        width: 294px;
+        height: 76px;
+        display: flex;
+        border-radius: 20px;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        p{
+          color: white;
+          font-size: 16px;
+          padding-bottom: 0;
+        }
+      }
+    }
+    div.imageDroite{
+      width: 50%;
+      position: relative;
+      div.image{
+        position: absolute;
+        left: 37%;
+        top: 20%;
+        z-index: 1;
+        width: 363px;
+        height: 396px;
+        img.surprise{
+        }
+        
+      }
+      div.imageFond{
+        position: absolute;
+        left: 30%;
+        top: 25%;
+        width: 377px;
+        height: 377px;
+      }
+      div.medal{
+        position: absolute;
+        left: 60%;
+        top: 75%;
+        z-index: 2;
+      }
+      div.textMedal{
+        position: absolute;
+        left: 63%;
+        top: 86%;
+        z-index: 3;
+        width: 123px;
+        height: 52px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        p.firstline{
+          font-size: 24px;
+          font-weight: 500;
+        }
+        p.lastline{
+          font-size: 20px;
+          font-weight: 500;
+        }
+      }
+      div.cookie{
+        position: absolute;
+        left: 13%;
+        top: 32%;
+        z-index: 3;
+      }
+    }
+  }
+  article.arrow{
+    position: relative;
+    width: 100%;
+    div.arrow{
+      position: absolute;
+      left: 45%;
+    }
+  }
+  .section2{
+    background-color: $main-color;
+    height: 840px;
+    margin-top: 75px;
+    padding-top: 150px;
+    width: 100%;
+    div.textS2{
+      display: flex;
+      height: fit-content;
+      width: 100%;
+      justify-content: center;
+      h2{
+        color: white;
+        font-size: 48px;
+      }
+    }
+    div.sectionCookie{
+      div.venteCookie{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 100px;
+        padding-top: 200px;
+        div.cookie1{
+          position: relative;
+
+          img.backgroundSectionCookie{
+            width: 300px;
+          height: 300px;
+          }
+          img.imgCookie{
+            position: absolute;
+            top: -19%;
+            left: -28%;
+          }
+          img.backgroundPlus{
+            position: absolute;
+            top: 10%;
+            left: 65%;
+          }
+          img.plus{
+            position: absolute;
+            top: 15%;
+            left: 70%;
+          }
+          img.backgroundBuy{
+            position: absolute;
+            top: 70%;
+            left: 65%;
+          }
+          img.buy{
+            position: absolute;
+            top: 75%;
+            left: 69%;
+          }
+        }
+        div.cookie2{
+          position: relative;
+
+          img.backgroundSectionCookie{
+            width: 300px;
+          height: 300px;
+          }
+          img.imgCookie{
+            position: absolute;
+            top: -19%;
+            left: -28%;
+          }
+          img.backgroundPlus{
+            position: absolute;
+            top: 10%;
+            left: 65%;
+          }
+          img.plus{
+            position: absolute;
+            top: 15%;
+            left: 70%;
+          }
+          img.backgroundBuy{
+            position: absolute;
+            top: 70%;
+            left: 65%;
+          }
+          img.buy{
+            position: absolute;
+            top: 75%;
+            left: 69%;
+          }
+        }
+        div.cookie3{
+          position: relative;
+
+          img.backgroundSectionCookie{
+            width: 300px;
+          height: 300px;
+          }
+          img.imgCookie{
+            position: absolute;
+            top: -19%;
+            left: -28%;
+          }
+          img.backgroundPlus{
+            position: absolute;
+            top: 10%;
+            left: 65%;
+          }
+          img.plus{
+            position: absolute;
+            top: 15%;
+            left: 70%;
+          }
+          img.backgroundBuy{
+            position: absolute;
+            top: 70%;
+            left: 65%;
+          }
+          img.buy{
+            position: absolute;
+            top: 75%;
+            left: 69%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

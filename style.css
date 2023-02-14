@@ -1,0 +1,294 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "inter";
+}
+
+body header {
+  display: flex;
+}
+body header div.navbar {
+  width: 100vw;
+  height: 50px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body header div.navbar .LogoNav {
+  display: flex;
+  align-items: center;
+}
+body header div.navbar .LogoNav .logo {
+  display: flex;
+  width: 272px;
+  height: 40px;
+  padding-left: 100px;
+}
+body header div.navbar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 34px;
+  padding-right: 100px;
+}
+body header div.navbar ul a {
+  text-decoration: none;
+  color: #2F2F2F;
+}
+body header div.navbar ul a li {
+  list-style-type: none;
+  font-size: 16px;
+}
+body header div.navbar ul .searchbar {
+  width: 250px;
+  height: 40px;
+  background-color: #F7F5F6;
+  border: none;
+  border-radius: 5px;
+}
+body header div.navbar ul .searchbar::placeholder {
+  padding-left: 20px;
+  margin-left: 10px;
+}
+body header div.navbar ul .imgNavbar {
+  width: 75px;
+  height: 75px;
+}
+body .section1 {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  padding-bottom: 30px;
+}
+body .section1 div.text {
+  padding-top: 125px;
+  display: flex;
+  width: 640px;
+  height: fit-content;
+  flex-direction: column;
+  padding-left: 100px;
+}
+body .section1 div.text div.compliment {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+}
+body .section1 div.text div.compliment p {
+  color: black;
+  font-size: 16px;
+  padding-right: 5px;
+  padding-bottom: 20px;
+}
+body .section1 div.text div.compliment img {
+  width: 20px;
+  height: 20px;
+}
+body .section1 div.text h1 {
+  font-size: 64px;
+  font-weight: 900;
+  padding-bottom: 20px;
+  line-height: 70px;
+}
+body .section1 div.text p {
+  color: #888888;
+  padding-bottom: 30px;
+}
+body .section1 div.text a {
+  background-color: #2F2F2F;
+  width: 294px;
+  height: 76px;
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+body .section1 div.text a p {
+  color: white;
+  font-size: 16px;
+  padding-bottom: 0;
+}
+body .section1 div.imageDroite {
+  width: 50%;
+  position: relative;
+}
+body .section1 div.imageDroite div.image {
+  position: absolute;
+  left: 37%;
+  top: 20%;
+  z-index: 1;
+  width: 363px;
+  height: 396px;
+}
+body .section1 div.imageDroite div.imageFond {
+  position: absolute;
+  left: 30%;
+  top: 25%;
+  width: 377px;
+  height: 377px;
+}
+body .section1 div.imageDroite div.medal {
+  position: absolute;
+  left: 60%;
+  top: 75%;
+  z-index: 2;
+}
+body .section1 div.imageDroite div.textMedal {
+  position: absolute;
+  left: 63%;
+  top: 86%;
+  z-index: 3;
+  width: 123px;
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .section1 div.imageDroite div.textMedal p.firstline {
+  font-size: 24px;
+  font-weight: 500;
+}
+body .section1 div.imageDroite div.textMedal p.lastline {
+  font-size: 20px;
+  font-weight: 500;
+}
+body .section1 div.imageDroite div.cookie {
+  position: absolute;
+  left: 13%;
+  top: 32%;
+  z-index: 3;
+}
+body article.arrow {
+  position: relative;
+  width: 100%;
+}
+body article.arrow div.arrow {
+  position: absolute;
+  left: 45%;
+}
+body .section2 {
+  background-color: #2F2F2F;
+  height: 840px;
+  margin-top: 75px;
+  padding-top: 150px;
+  width: 100%;
+}
+body .section2 div.textS2 {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  justify-content: center;
+}
+body .section2 div.textS2 h2 {
+  color: white;
+  font-size: 48px;
+}
+body .section2 div.sectionCookie div.venteCookie {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 200px;
+}
+body .section2 div.sectionCookie div.venteCookie div.cookie1 {
+  position: relative;
+}
+body .section2 div.sectionCookie div.venteCookie div.cookie1 img.backgroundSectionCookie {
+  width: 300px;
+  height: 300px;
+}
+body .section2 div.sectionCookie div.venteCookie div.cookie1 img.imgCookie {
+  position: absolute;
+  top: -19%;
+  left: -28%;
+}
+body .section2 div.sectionCookie div.venteCookie div.cookie1 img.backgroundPlus {
+  position: absolute;
+  top: 10%;
+  left: 65%;
+}
+body .section2 div.sectionCookie div.venteCookie div.cookie1 img.plus {
+  position: absolute;
+  top: 15%;
+  left: 70%;
+}
+body .section2 div.sectionCookie div.venteCookie div.cookie1 img.backgroundBuy {
+  position: absolute;
+  top: 70%;
+  left: 65%;
+}
+body .section2 div.sectionCookie div.venteCookie div.cookie1 img.buy {
+  position: absolute;
+  top: 75%;
+  left: 69%;
+}
+body .section2 div.sectionCookie div.venteCookie div.cookie2 {
+  position: relative;
+}
+body .section2 div.sectionCookie div.venteCookie div.cookie2 img.backgroundSectionCookie {
+  width: 300px;
+  height: 300px;
+}
+body .section2 div.sectionCookie div.venteCookie div.cookie2 img.imgCookie {
+  position: absolute;
+  top: -19%;
+  left: -28%;
+}
+body .section2 div.sectionCookie div.venteCookie div.cookie2 img.backgroundPlus {
+  position: absolute;
+  top: 10%;
+  left: 65%;
+}
+body .section2 div.sectionCookie div.venteCookie div.cookie2 img.plus {
+  position: absolute;
+  top: 15%;
+  left: 70%;
+}
+body .section2 div.sectionCookie div.venteCookie div.cookie2 img.backgroundBuy {
+  position: absolute;
+  top: 70%;
+  left: 65%;
+}
+body .section2 div.sectionCookie div.venteCookie div.cookie2 img.buy {
+  position: absolute;
+  top: 75%;
+  left: 69%;
+}
+body .section2 div.sectionCookie div.venteCookie div.cookie3 {
+  position: relative;
+}
+body .section2 div.sectionCookie div.venteCookie div.cookie3 img.backgroundSectionCookie {
+  width: 300px;
+  height: 300px;
+}
+body .section2 div.sectionCookie div.venteCookie div.cookie3 img.imgCookie {
+  position: absolute;
+  top: -19%;
+  left: -28%;
+}
+body .section2 div.sectionCookie div.venteCookie div.cookie3 img.backgroundPlus {
+  position: absolute;
+  top: 10%;
+  left: 65%;
+}
+body .section2 div.sectionCookie div.venteCookie div.cookie3 img.plus {
+  position: absolute;
+  top: 15%;
+  left: 70%;
+}
+body .section2 div.sectionCookie div.venteCookie div.cookie3 img.backgroundBuy {
+  position: absolute;
+  top: 70%;
+  left: 65%;
+}
+body .section2 div.sectionCookie div.venteCookie div.cookie3 img.buy {
+  position: absolute;
+  top: 75%;
+  left: 69%;
+}
+
+/*# sourceMappingURL=style.css.map */
